@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&family=Nunito+Sans&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f9ea8f;
+  background-image: linear-gradient(to left, #f9ea8f 0%, #aff1da 74%);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-family: "Licorice", cursive;
+  font-size: 45px;
+}
+
+/* Input-field */
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 135px;
+  height: 45px;
+}
+
+.input-box {
+  border: none;
+  width: 90%;
+  height: 45px;
+  border-width: 0px;
+  text-align: end;
+  border: none;
+  outline: none;
+  padding-left: 3px;
+}
+
+.btn-container {
+  display: flex;
+}
+
+/* Button */
+.btn {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-style: none;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  fill: currentcolor;
+  font-family: "Nunito Sans", Roboto, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #eceeff;
+  color: #174ea6;
+}
+
+#clear-all:hover {
+  background: #fff4f4;
+  color: #e61a1a;
+}
+
+/* Note */
+.note {
+  display: inline-block;
+  margin: 15px;
+  margin-left: 137px;
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+  min-width: 250px;
+  max-width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  font-family: "Nunito Sans", sans-serif;
+  background: #ffff88;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Show more and clear note Button */
+.btn-seeMore,
+.btn-clear-note {
+  display: inline;
+  font-size: 0.9rem;
+  font-weight: 600;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 0, rgba(0, 0, 0, 0.14) 0 0 0 0,
+    rgba(0, 0, 0, 25%) 0 0 3px 0;
+}
+
+.btn-clear-note {
+  margin-top: -1px;
+}
+
+.btn-clear-note:hover {
+  background: #fff4f4;
+  color: #e61a1a;
+}
+
+.btn-seeMore:active,
+.btn-clear-note:active {
+  box-shadow: 0 1px 1px 0 rgb(60 64 67 / 10%), 0 5px 7px 3px rgb(60 64 67 / 5%);
+  outline: none;
+}
+
+.date {
+  font-size: 0.6rem;
+  display: inline;
+  margin-left: 10px;
+}
+
+/* End */
